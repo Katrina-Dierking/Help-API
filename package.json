@@ -1,0 +1,23 @@
+{
+  "name": "help-api",
+  "version": "1.0.0",
+  "description": "API for Help App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Katrina-Dierking/Help-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Katrina-Dierking/Help-API/issues"
+  },
+  "homepage": "https://github.com/Katrina-Dierking/Help-API#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
