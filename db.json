@@ -1,0 +1,82 @@
+{
+    "users": [
+        {
+            "id": 0, 
+            "firstName": "Katrina",
+            "lastName" : "Dierking", 
+            "birthday" : "09-22-1973",
+            "gender"   : "female",
+            "race"     : "Caucasion",
+            "doctors" : [
+                {
+                    "type": null, 
+                    "name": null, 
+                    "phone number" : null 
+                }
+            ],
+            "locations" : [ {
+                "name": "home",
+                "street number": "2834",
+                "street name": "Mallard Cove Rd",
+                "apt number" : null, 
+                "city" : "Sanford", 
+                "state" : "NC", 
+                "zip code" : "27330"
+            }, 
+            {
+                "name": "church",
+                "street number": "115",
+                "street name": "15/501",
+                "apt number" : null, 
+                "city" : "Carthge", 
+                "state" : "NC", 
+                "zip code" : "28379"
+            }
+                
+            ], 
+
+            "medical history" : {
+                "surgeries" : [
+                    {
+                        "description" : "gallbladder removed",
+                        "year" : 2018,
+                        "complications" : null
+                    },
+                    {
+                        "description" : "ectopic pregnancy", 
+                        "year" : 2019,
+                        "complications" : "arrested for 4 minutes due to air embolism and mycardial effusion"
+                    },
+                    {
+                        "description" : "heart cath", 
+                        "year" : 2007,
+                        "complications" : null
+                    }
+
+                ],
+                "non-surgical medical issues" : [{
+                    "description": "pulmonary embolism", 
+                    "year" : 2007
+                }],
+                "medications" : [{
+                    "name": null, 
+                    "dosage": null
+                }],
+                "recreational drugs": [{
+                    "name": null, 
+                    "frequency" : null
+                }],
+                "alcohol": [{"yes or no" : "no", 
+                    "frequency": null}],
+                "tobaco" : {"yes or no": "no"}, 
+                "vape" : {"yes or no": "no"}
+            },
+            "behavioral" : {
+                "description": null, 
+                "outcome" : null, 
+                "year" : null
+            }
+
+        }
+    ]
+}
